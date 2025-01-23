@@ -21,5 +21,5 @@ import api.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('schedule/', api.views.get_schedule),
+    path('schedule', api.views.get_schedule),
 ]
